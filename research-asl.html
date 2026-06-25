@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ASL Interpretation Research — Emma Kochenderfer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<canvas id="canvas"></canvas>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">ek —</a>
+    <ul class="nav-links">
+      <li><a href="#research">Research</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#aviation">Aviation</a></li>
+      <li><a href="#extracurriculars">Activities</a></li>
+      <li><a href="#awards">Awards</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#theatre">Theatre</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="wrap">
+  <div class="detail fade-in">
+    <a href="index.html#research" class="back-link">
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+      Back to research
+    </a>
+
+    <div class="detail-eyebrow">
+      <span>Computer Vision</span> · <span>Accessibility</span>
+    </div>
+    <h1>Interpreting American Sign Language</h1>
+    <div class="detail-meta">Chapman University · with Natalie Paradiso · advised by Dr. Kendra Day · Dec 2025 – Jan 2026</div>
+
+    <div class="detail-body">
+      <p>
+        A literature review of assistive technologies for interpreting American Sign Language (ASL).
+        With Natalie Paradiso, I surveyed how current systems attempt to recognize ASL and where they
+        fall short by comparing computer-vision approaches against wearable, sensor-based systems, and
+        examining the human factors that decide whether a technology actually gets adopted.
+      </p>
+
+      <h2>What the review covers</h2>
+      <ul>
+        <li>Computer-vision models (deep learning, image fusion, keypoint tracking): accurate in controlled settings but brittle to signer variability, occlusion, and real-world noise</li>
+        <li>Wearable, sensor-based systems (smart gloves, motion-tracking): precise motion capture, but constrained by comfort, scalability, and social acceptability</li>
+        <li>Human factors: why designing with Deaf communities is essential to adoption, not an afterthought</li>
+        <li>Literature gaps: the lack of standardized, diverse, representative ASL datasets and consistent benchmarks</li>
+      </ul>
+
+      <h2>Poster</h2>
+      <p>Co-presented at the Harvard National Collegiate Research Conference (NCRC). Funded by Chapman Student Government Association, the Fowler School of Engineering, the Center for Undergraduate Excellence, and the Crean College of Health &amp; Behavioral Sciences.</p>
+      <div class="poster-frame">
+        <img src="asl-poster.png" alt="Interpreting American Sign Language: a literature review of assistive technologies — poster presented at Harvard NCRC"
+             onerror="this.style.display='none';document.getElementById('poster-fallback').style.display='flex';">
+        <div class="poster-fallback" id="poster-fallback" style="display:none;">
+          <div class="pf-title">Poster coming soon</div>
+          <div class="pf-sub">Drop <strong>asl-poster.png</strong> (or .jpg) into this folder to show it here.</div>
+        </div>
+      </div>
+      <div class="poster-caption">“Interpreting American Sign Language: a literature review of assistive technologies” · Harvard NCRC</div>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-text">© 2026 Emma Kochenderfer</span>
+      <span class="footer-text">Chapman University · CS &amp; Theatre · Class of 2028</span>
+    </div>
+  </footer>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
