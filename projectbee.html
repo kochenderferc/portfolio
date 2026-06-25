@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Project B: Remote Monitoring for Beekeeping — Emma Kochenderfer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<canvas id="canvas"></canvas>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">ek —</a>
+    <ul class="nav-links">
+      <li><a href="#research">Research</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#aviation">Aviation</a></li>
+      <li><a href="#extracurriculars">Activities</a></li>
+      <li><a href="#awards">Awards</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#theatre">Theatre</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="wrap">
+  <div class="detail fade-in">
+    <a href="index.html#projects" class="back-link">
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+      Back to projects
+    </a>
+
+    <div class="detail-eyebrow">
+      <span>Embedded</span> · <span>Environment</span> · <span>Grand Challenges Initiative</span>
+    </div>
+    <h1>Project B: A Remote Monitoring Approach to Beekeeping</h1>
+    <div class="detail-meta">Chapman University · Grand Challenges Initiative · projectbee</div>
+
+    <div class="detail-body">
+      <p>
+        My team and I won the <strong>Arthur C. Flint Science Award</strong> at the Grand Challenges
+        Initiative Showcase for this project: a remote monitoring approach to beekeeping aimed at
+        early detection of Colony Collapse Disorder (CCD) in bee colonies.
+      </p>
+      <p>
+        We built an Arduino Mega–based device that fits inside a standard beehive and, using two
+        different sensors, collects data on vibrations, temperature, humidity, particulate matter,
+        and VOCs — so beekeepers can catch changes in the hive without disrupting the colony.
+        Honey bees are a keystone species (90–100% of California crops depend on them), and CCD is
+        rising roughly 40% each year, so affordable and non-intrusive monitoring really matters.
+      </p>
+
+      <h2>What we did</h2>
+      <ul>
+        <li>Designed an affordable, non-disruptive device that lives inside the bee box (costs under $100)</li>
+        <li>Two sensors measuring particulate matter, VOCs, humidity, temperature, and vibration</li>
+        <li>Wrote firmware with five test scenarios to trigger per-sensor alerts; validated in field tests at a working apiary</li>
+        <li>Logged hive data to CSV for review alongside beekeeper input</li>
+      </ul>
+
+      <h2>Team &amp; thanks</h2>
+      <p>
+        Built with Emelia Walker, Ilef Ben Abdallah, Jamil Bakar, Juliana Jordan, and Rachel Nielsen.
+        Special thanks to our faculty mentors and Little Parrot Farm for supporting our field testing.
+      </p>
+
+      <p>
+        <a href="https://github.com/kochenderferc/projectbee" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none;">View the code on GitHub →</a>
+      </p>
+
+      <h2>Poster</h2>
+      <div class="poster-frame">
+        <img src="projectbee-poster.png" alt="Project B: A Remote Monitoring Approach to Beekeeping — Grand Challenges Initiative poster"
+             onerror="this.style.display='none';document.getElementById('poster-fallback').style.display='flex';">
+        <div class="poster-fallback" id="poster-fallback" style="display:none;">
+          <div class="pf-title">Poster coming soon</div>
+          <div class="pf-sub">Drop <strong>projectbee-poster.png</strong> (or .jpg) into this folder to show it here.</div>
+        </div>
+      </div>
+      <div class="poster-caption">“Project B: A Remote Monitoring Approach to Beekeeping” · Chapman Grand Challenges Initiative</div>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-text">© 2026 Emma Kochenderfer</span>
+      <span class="footer-text">Chapman University · CS &amp; Theatre · Class of 2028</span>
+    </div>
+  </footer>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
