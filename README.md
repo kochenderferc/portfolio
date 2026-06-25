@@ -11,5 +11,6 @@ Static, multi-page site covering my research, projects, experience, aviation, an
 - `research-pilot-cognition.html`: detail page for research on autopilot/manual flight reaction time
 - `research-pilot-suicides.html`: detail page for research on factors in pilot aircraft-assisted suicides
 - `aviation-pilot.html`: aviation detail page
+- `projectbee.html`: detail page for the projectbee beekeeping device (Arthur C. Flint Science Award)
 - `asl-poster.png` and `pilot-suicides-poster.png`: research poster pngs
 - `kochenderfer-resume.pdf`: as you can guess by the title, my resume
